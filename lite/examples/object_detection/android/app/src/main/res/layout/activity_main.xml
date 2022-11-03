@@ -47,9 +47,13 @@
             android:background="@color/toolbar_background">
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/tfl_logo" />
+                android:layout_gravity="center_horizontal"
+                android:scaleX="1.8"
+                android:scrollbarSize="4dp"
+                android:src="@drawable/c"
+                android:visibility="visible" />
         </androidx.appcompat.widget.Toolbar>
 
     </RelativeLayout>
